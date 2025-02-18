@@ -157,3 +157,14 @@ main .tambah-form .tambah-button button:hover {
 main .tambah-form .tambah-button button::selection {
     background-color: transparent;
 }
+
+/* RESPONSIVE BREAKPOINTS */
+@media (max-width: 576px) {
+    main {
+        width: 100%;
+    }
+
+    main .tambah-form .tambah-img input {
+        width: 100%;
+    }
+}

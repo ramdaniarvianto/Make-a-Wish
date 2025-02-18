@@ -304,3 +304,10 @@ main {
     color: white;
     background-color: cornflowerblue;
 }
+
+/* RESPONSIVE BREAKPOINTS */
+@media (max-width: 576px) {
+    main {
+        width: 100%;
+    }
+}
