@@ -55,6 +55,7 @@ main {
 
 /* POST | TITLE */
 .post-title {
+    cursor: default;
     padding: 1rem;
     text-align: center;
 }
@@ -94,6 +95,7 @@ main {
     margin-top: .5rem;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     gap: .5rem;
 }
 .post-text h4 {
@@ -243,6 +245,7 @@ main {
     margin-top: .5rem;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     gap: .5rem;
 }
 .comment-text h4 {
