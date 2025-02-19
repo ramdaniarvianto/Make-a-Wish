@@ -17,8 +17,8 @@ $wishes = query("SELECT * FROM wish");
     <script src="https://kit.fontawesome.com/98721b54aa.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav>&nbsp;</nav>
-    
+    <?php include "nav.php"; ?>
+
     <main>
         <!-- POST -->
         <div class="post">

@@ -32,7 +32,7 @@ if ( isset($_POST["submit"]) ) {
     <script src="https://kit.fontawesome.com/98721b54aa.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav>&nbsp;</nav>
+    <?php include "nav.php"; ?>
     
     <main>
         <a href="index.php" class="tambah-kembali">Back</a>
