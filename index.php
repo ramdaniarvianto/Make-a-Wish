@@ -84,5 +84,9 @@ $wishes = query("SELECT * FROM wish");
             </div>
         </div>
     </main>
+
+    <footer>
+        <p><?= $year; ?></p>
+    </footer>
 </body>
 </html>

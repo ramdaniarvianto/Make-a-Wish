@@ -308,6 +308,26 @@ main {
     background-color: cornflowerblue;
 }
 
+
+/* FOOTER */
+footer {
+    cursor: default;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    background-color: cornflowerblue;
+    border-top: 1rem solid white;
+}
+
+footer p {
+    font-family: 'Climate Crisis';
+    font-size: clamp(1rem, 20vw, 15rem);
+    color: white;
+}
+footer p::selection {
+    background-color: transparent;
+}
+
 /* RESPONSIVE BREAKPOINTS */
 @media (max-width: 576px) {
     main {

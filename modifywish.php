@@ -61,5 +61,9 @@ if ( isset($_POST["submit"]) ) {
             </form>
         </div>
     </main>
+
+    <footer>
+        <p><?= $year; ?></p>
+    </footer>
 </body>
 </html>

@@ -158,6 +158,26 @@ main .tambah-form .tambah-button button::selection {
     background-color: transparent;
 }
 
+
+/* FOOTER */
+footer {
+    cursor: default;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    background-color: cornflowerblue;
+}
+
+footer p {
+    font-family: 'Climate Crisis';
+    font-size: clamp(1rem, 20vw, 15rem);
+    color: white;
+}
+footer p::selection {
+    background-color: transparent;
+}
+
+
 /* RESPONSIVE BREAKPOINTS */
 @media (max-width: 576px) {
     main {
@@ -166,5 +186,10 @@ main .tambah-form .tambah-button button::selection {
 
     main .tambah-form .tambah-img input {
         width: 100%;
+    }
+
+    footer {
+        bottom: 0;
+        position: absolute;
     }
 }
