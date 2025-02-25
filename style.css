@@ -169,6 +169,7 @@ main {
 }
 
 .form-comments .fc-text {
+    width: 100%;
     margin-top: .5rem;
     display: flex;
     flex-direction: column;
@@ -331,6 +332,11 @@ footer p::selection {
 /* RESPONSIVE BREAKPOINTS */
 @media (max-width: 576px) {
     main {
+        width: 100%;
+    }
+
+    .form-comments p {
+        padding: 0 1rem;
         width: 100%;
     }
 }
