@@ -1,4 +1,4 @@
-# 🌠 Make a Wish — CRUD-Based Wish Wall
+# 🌠 Make a Wish
 
 Mini Project: Make a Wish | A Simple Web App to Make a Wish. Built with plain PHP, no frameworks. Users can make wishes, modify 'em, or delete if they change their mind. Includes basic image upload and dynamic year display. Just a beginner project, made for practice.
 
@@ -13,8 +13,6 @@ Mini Project: Make a Wish | A Simple Web App to Make a Wish. Built with plain PH
 - ✏️ Edit existing wishes
 - 🗑️ Delete any wish
 - 🖼️ Upload and preview image files (jpg, jpeg, png, ico)
-- 🕒 Timestamp every entry
-- 🧠 Preloaded with fictional wishes from rappers & artists (their own style)
 
 ---
 
@@ -22,8 +20,8 @@ Mini Project: Make a Wish | A Simple Web App to Make a Wish. Built with plain PH
 
 - PHP (Procedural)
 - MySQL
-- HTML5 & CSS3
-- JavaScript (minimal)
+- HTML & CSS
+- JavaScript (Just basic alert)
 - Hosted on [InfinityFree](https://infinityfree.net)
 
 ---
@@ -62,7 +60,3 @@ project/
 Made by **Ramdani Arvianto**
 
 ---
-
-## ⚠️ License
-
-This project is open source and available under the MIT License.
