@@ -22,8 +22,8 @@ Mini Project: Make a Wish | A Simple Web App to Make a Wish. Built with plain PH
 
 - PHP (Procedural)
 - MySQL
-- HTML5 & CSS3
-- JavaScript (minimal)
+- HTML & CSS
+- JavaScript (Just basic alert)
 - Hosted on [InfinityFree](https://infinityfree.net)
 
 ---
