@@ -9,12 +9,10 @@ Mini Project: Make a Wish | A Simple Web App to Make a Wish. Built with plain PH
 
 ## 🔧 Features
 
-- ✅ Create a new wish (with name, profile picture, and message)
+- ✅ Create a wish (with name, profile picture, and wish)
 - ✏️ Edit existing wishes
 - 🗑️ Delete any wish
-- 🖼️ Upload and preview image files (jpg, jpeg, png, ico)
-- 🕒 Timestamp every entry
-- 🧠 Preloaded with fictional wishes from rappers & artists (their own style)
+- 🖼️ Upload image (jpg, jpeg, png, ico)
 
 ---
 
