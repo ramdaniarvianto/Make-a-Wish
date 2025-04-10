@@ -9,10 +9,14 @@ Mini Project: Make a Wish | A Simple Web App to Make a Wish. Built with plain PH
 
 ## 🔧 Features
 
-- ✅ Create a new wish (with name, profile picture, and message)
+- ✅ Create a wish (with name, profile picture, and wish)
 - ✏️ Edit existing wishes
 - 🗑️ Delete any wish
+<<<<<<< HEAD
 - 🖼️ Upload and preview image files (jpg, jpeg, png, ico)
+=======
+- 🖼️ Upload image (jpg, jpeg, png, ico)
+>>>>>>> 8cf5ad3cff27db68a341e8857d07aeeb6183987d
 
 ---
 
@@ -59,4 +63,8 @@ project/
 
 Made by **Ramdani Arvianto**
 
+<<<<<<< HEAD
 ---
+=======
+---
+>>>>>>> 8cf5ad3cff27db68a341e8857d07aeeb6183987d
