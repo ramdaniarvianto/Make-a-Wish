@@ -49,8 +49,10 @@ project/
 ├── templates/
 │   ├── footer.php
 │   └── header.php
+├── upload/
 ├── .htaccess
 ├── index.php
+├── README.md
 ```
 
 ---
