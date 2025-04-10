@@ -5,6 +5,9 @@
     text-decoration: none;
     font-family: 'Bricolage Grotesque';
 }
+*::selection {
+    background-color: transparent;
+}
 
 body {
     background-color: #F0F8FF;
@@ -52,6 +55,7 @@ main .post-head, .post-body, .post-foot {
 
 /* MAIN | POST */
 main .post-head {
+    cursor: default;
     text-align: center;
 }
 
@@ -83,6 +87,14 @@ main .pb-text {
     color: #444444;
 }
 
+main .pb-name p::selection {
+    color: white;
+    background-color: royalblue;
+}
+main .pb-name b::selection {
+    color: white;
+    background-color: royalblue;
+}
 main .pb-name {
     display: flex;
     align-items: center;
@@ -90,11 +102,21 @@ main .pb-name {
     color: #000000;
 }
 
+main .pb-wish span::selection {
+    color: #0075FF;
+    background-color: transparent;
+}
 main .pb-wish span {
+    cursor: default;
     padding: 2px 6px;
     color: #0075FF;
     background-color: #0075FF1F;
     border-radius: 3.5px;
+}
+
+main .pb-wish p::selection {
+    color: white;
+    background-color: royalblue;
 }
 
 main .post-foot {
@@ -102,6 +124,10 @@ main .post-foot {
     align-items: center;
     justify-content: space-between;
     color: #888888;
+}
+
+main .post-foot .pf-wishCount {
+    cursor: default;
 }
 
 main .pf-links {
@@ -200,12 +226,29 @@ main .wish-body .wb-name {
     gap: 3px;
     color: #000000;
 }
+main .wish-body .wb-name p::selection {
+    color: white;
+    background-color: royalblue;
+}
+main .wish-body .wb-name b::selection {
+    color: white;
+    background-color: royalblue;
+}
+
+main .wish-body .wb-wish p::selection {
+    color: white;
+    background-color: royalblue;
+}
 
 main .wish-foot {
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: #888888;
+}
+
+main .wish-foot .wf-timestamp {
+    cursor: default;
 }
 
 main .wish-foot .wf-action {

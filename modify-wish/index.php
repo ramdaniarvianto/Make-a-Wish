@@ -25,12 +25,12 @@ $wish = query("SELECT * FROM wisher WHERE id = $id")[0];
 
         <form action="" method="POST" enctype="multipart/form-data">
             <div class="form">
-                <img src="<?= BASEURL; ?>/img/<?= $wish["img"]; ?>" alt="Make a Wish">
+                <img src="<?= BASEURL; ?>/upload/<?= $wish["img"]; ?>" alt="Make a Wish">
                 <input type="file" name="img" id="img" title="Upload Profile Picture">
             </div>
 
             <div class="form">
-                <input type="text" name="nama" id="nama" value="<?= $wish["nama"]; ?>" placeholder="Modify Name" autocomplete="off">
+                <input type="text" name="nama" id="nama" class="nama" value="<?= $wish["nama"]; ?>" placeholder="Modify Name" autocomplete="off">
                 <input type="hidden" name="id" id="id" value="<?= $wish["id"]; ?>">
                 <input type="hidden" name="oldImg" id="oldImg" value="<?= $wish["img"]; ?>">
             </div>

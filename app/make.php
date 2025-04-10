@@ -49,7 +49,7 @@ function upload()
 
     $newNameFile = uniqid() . "." . $extPic;
 
-    move_uploaded_file($tmpName, "../img/{$newNameFile}");
+    move_uploaded_file($tmpName, "../upload/{$newNameFile}");
 
     return $newNameFile;
 }

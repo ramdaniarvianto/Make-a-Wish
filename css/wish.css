@@ -5,6 +5,9 @@
     text-decoration: none;
     font-family: 'Bricolage Grotesque';
 }
+*::selection {
+    background-color: transparent;
+}
 
 body {
     background-color: #F0F8FF;
@@ -111,6 +114,15 @@ main form input:focus::placeholder {
     color: #0075FF;
 }
 
+main form input.nama::selection {
+    color: white;
+    background-color: royalblue;
+}
+
+main form textarea::selection {
+    color: white;
+    background-color: royalblue;
+}
 main form textarea:hover {
     outline: 1.5px solid #0075FF;
 }

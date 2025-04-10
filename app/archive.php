@@ -1,8 +1,13 @@
 <?php 
 
-function archive($id)
+function archive($id, $img)
 {
     global $dbconn;
+
+    $filePath = "upload/" . $img;
+    if(file_exists($filePath)) {
+        unlink($filePath);
+    }
 
     $query = "DELETE FROM wisher WHERE id = $id";
     mysqli_query($dbconn, $query);
@@ -12,8 +17,9 @@ function archive($id)
 
 if(isset($_POST["archive"])) {
     $id = $_GET["wish"];
+    $img = $_GET["img"];
 
-    if(archive($id) > 0) {
+    if(archive($id, $img) > 0) {
         echo "
             <script>
                 alert('Your wish is now archived!');

@@ -73,7 +73,7 @@ require_once "app/init.php";
         <div class="wish wish">
             <div class="wish-body">
                 <div class="wb-img">
-                    <img src="<?= BASEURL ?>/img/<?= $wish["img"] ?>" alt="<?= $wish["nama"] ?>">
+                    <img src="<?= BASEURL ?>/upload/<?= $wish["img"] ?>" alt="<?= $wish["nama"] ?>">
                 </div>
                 <div class="wb-text">
                     <div class="wb-name">
@@ -91,7 +91,7 @@ require_once "app/init.php";
                 </div>
                 <div class="wf-action">
                     <a href="<?= BASEURL; ?>/modify-wish?w=<?= $wish["id"]; ?>" class="modify"><i class="fa-regular fa-pen-to-square"></i> Modify Wish</a>
-                    <form action="?wish=<?= $wish["id"]; ?>" method="POST"><button type="submit" name="archive" class="archive" onclick="return confirm('Are you sure you want to archive this wish?')"><i class="fa-regular fa-trash-can"></i> Archive Wish</button></form>
+                    <form action="?wish=<?= $wish["id"]; ?>&img=<?= $wish["img"]; ?>" method="POST"><button type="submit" name="archive" class="archive" onclick="return confirm('Are you sure you want to archive this wish?')"><i class="fa-regular fa-trash-can"></i> Archive Wish</button></form>
                 </div>
             </div>
         </div>

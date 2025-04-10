@@ -27,7 +27,7 @@ require_once "../app/init.php";
                 <input type="file" name="img" id="img" title="Upload Profile Picture">
             </div>
 
-            <div class="form"><input type="text" name="nama" id="nama" placeholder="Your Name" autocomplete="off"></div>
+            <div class="form"><input type="text" name="nama" id="nama" class="nama" placeholder="Your Name" autocomplete="off"></div>
 
             <div class="form"><textarea name="wish" id="wish" placeholder="Your Wish..." autocomplete="off"></textarea></div>
 
